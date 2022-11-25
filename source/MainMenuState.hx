@@ -7,6 +7,8 @@ import flixel.text.FlxText;
 
 class MainMenuState extends FlxState {
         override public function new() {
+                super();
+
                 var bg:FlxSprite = new FlxSprite(0, 0).loadGraphic("assets/images/bg");
                 add(bg);
 
@@ -16,8 +18,8 @@ class MainMenuState extends FlxState {
                 shit.velocity.x = -150;
 
                 var text:FlxText = new FlxText(0, FlxG.height * 0.35, 0, "Load or Create a script?", 50);
-                text.font = Paths.font("vcr");
-                text.screenCenter(FlxAxes.X);
+                text.font = "assets/fonts/lol.ttf";
+                text.screenCenter(flixel.util.FlxAxes.X);
                 add(text);
 
                 add(new FlxUIButton(FlxG.width * 0.68, FlxG.height * 0.5, "Load", load));
@@ -29,6 +31,6 @@ class MainMenuState extends FlxState {
         }
 
         function createscript() {
-                FlxG.switchState(new ModState("ScriptState"));
+                FlxG.switchState(new ScriptState());
         }
 }
