@@ -1,0 +1,33 @@
+{
+	"titleBarName": "Friday Night Funkin' - Mod Name",
+	"intro": {
+		"authors": [
+			"ninjamuffin99",
+			"phantomArcade",
+			"kawaisprite",
+			"evilsk8er"
+		],
+		"gameName": [
+			"Friday Night Funkin'",
+			"YoshiCrafter",
+			"Engine"
+		],
+		"newgrounds": "newgrounds",
+		"bpm": 102,
+		"assoc": [
+			"In association",
+			"with"
+		],
+		"present": "present"
+	},
+	"skinnableBFs": [],
+	"skinnableGFs": [],
+	"GFskins": [],
+	"keyNumbers": [
+		4
+	],
+	"BFskins": [],
+	"name": "inky's cool visual scripter",
+	"locked": false,
+	"description": "epic"
+}

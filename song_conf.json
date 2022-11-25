@@ -1,0 +1,13 @@
+{
+	"songs": [
+		{
+			"end_cutscene": "cutscenes/your-end-cutscene",
+			"cutscene": "cutscenes/your-cutscene",
+			"difficulties": null,
+			"scripts": [
+				"modcharts/script1"
+			],
+			"name": "Your song"
+		}
+	]
+}
